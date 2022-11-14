@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import Header from './Component/Header/Header';
 import Banner from './Component/Banner/Banner';
 import Footer from './Component/Footer/Footer';

@@ -1,5 +1,5 @@
 import React from 'react';
-// import css from './Header.css';
+import './Header.scss';
 // import { Container, Nav, Navbar } from 'react-bootstrap'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -11,7 +11,9 @@ const Header = () => {
     <>
     <Navbar bg="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#home" className='text-white' >React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home" className='height text-white' >
+          <img src="" alt="" className='' />
+          React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto text-white">

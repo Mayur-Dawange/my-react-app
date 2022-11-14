@@ -8,15 +8,14 @@ const Banner = () => {
     <div style={{ paddingLeft: 0 }}>
       <div
         className='text-center bg-image'
-        style={{height: 400 }}
-      >
+        style={{height: 400 }}>
         <div className='mask h-100' style={{ backgroundColor: 'rgb(0 0 0 / 51%)' }}>
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
-              <h1 className='mb-3'>Heading</h1>
-              <h4 className='mb-3'>Subheading</h4>
+              <h1 className='mb-3'>Restaurants</h1>
+              <h4 className='mb-3'>Test Your best</h4>
               <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
-                Call to action
+                Order Now
               </a>
             </div>
           </div>

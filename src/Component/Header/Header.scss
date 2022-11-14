@@ -1,0 +1,21 @@
+#basic-nav-dropdown\ nav-links {
+    color: rgb(255, 255, 255);
+}
+#basic-nav-dropdown\ nav-links:after{
+    position: absolute;
+    top: 48%;
+}
+.navbar-toggler{
+    background-color: aliceblue !important;
+}
+/* Define standard variables and values for website */
+$bgcolor: lightblue;
+$textcolor: darkblue;
+
+
+/* Use the variables */
+.height {
+    background-color: $bgcolor;
+    color: $textcolor;
+
+}
