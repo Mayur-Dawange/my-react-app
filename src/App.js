@@ -1,17 +1,18 @@
-import './App.css';
+// import './App.css';
 import Header from './Component/Header/Header';
 import Banner from './Component/Banner/Banner';
 import Footer from './Component/Footer/Footer';
+import React from 'react';
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       <Header />
-        <Banner />
-      <Footer />
+      <Banner />
+      <Footer/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
