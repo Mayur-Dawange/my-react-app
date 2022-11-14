@@ -1,0 +1,7 @@
+#basic-nav-dropdown\ nav-links {
+    color: rgb(0, 0, 0);
+}
+#basic-nav-dropdown\ nav-links:after{
+    position: absolute;
+    top: 48%;
+}
