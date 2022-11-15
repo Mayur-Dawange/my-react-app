@@ -1,5 +1,5 @@
 import React from 'react'
-import './banner.scss'
+import './banner.scss';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -26,21 +26,23 @@ const Banner = () => {
     </div>
 
     {/* simple section used here */}
-<Container>
-    <Card className='border-0 py-3'>
-      {/* <Card.Header>Featured</Card.Header> */}
+    <div className='about-section'>
+      <Container>
+        <Card className='border-0 py-3'>
+          {/* <Card.Header>Featured</Card.Header> */}
 
-      <Card.Body className='py-5'>
-        <h2>About</h2>
-        <Card.Title>Special title treatment</Card.Title>
-        <Card.Text className='text-cards'>
-          With supporting text below as a natural lead-in to additional content.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum consequatur optio amet illum. Doloremque voluptas soluta tempore natus iure!
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-</Container>
+          <Card.Body className='py-5'>
+            <h2>About</h2>
+            <Card.Title>Special title treatment</Card.Title>
+            <Card.Text className='text-cards'>
+              With supporting text below as a natural lead-in to additional content.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolorum consequatur optio amet illum. Doloremque voluptas soluta tempore natus iure!
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+    </Container>
+    </div>
     </>
   )
 }

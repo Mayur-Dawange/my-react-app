@@ -15,6 +15,7 @@ export default class SimpleSlider extends Component {
       centerPadding: '60px',
       speed: 500,
       slidesToScroll: 1,
+
     };
     return (
       <div className="slick-slide-container">
@@ -125,6 +126,7 @@ export default class SimpleSlider extends Component {
               </div>
             </div>
           </div>
+
         </Slider>
         </Container>
       </div>
