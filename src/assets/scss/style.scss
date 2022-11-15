@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+$overlay :rgba(0, 0, 0, 0.51);
+
+.overlay{
+    background-color: $overlay;
+}

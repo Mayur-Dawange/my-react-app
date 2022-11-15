@@ -1,0 +1,12 @@
+.text-cards{
+    width: 50%;
+}
+@media (max-width:768px) {
+    .slick-height {
+        height: auto;
+    }
+
+    .text-cards {
+        width: 100%;
+    }
+}
