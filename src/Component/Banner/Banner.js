@@ -3,6 +3,7 @@ import './banner.scss';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
+import Font  from 'react-font'
 
 const Banner = () => {
   return (
@@ -14,7 +15,7 @@ const Banner = () => {
         <div className='mask h-100 overlay'>
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
-              <h1 className='mb-3'>Restaurants</h1>
+              <Font family='Roboto'><h1 className='mb-3'>Restaurants</h1></Font>
               <h4 className='mb-3'>Test Your best</h4>
               <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
                 Order Now

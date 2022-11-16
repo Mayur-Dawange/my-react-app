@@ -1,5 +1,6 @@
 $slickheight : 400px;
 $card_img: 250px;
+$flex : flex;
 
 .card-flex-item{
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
@@ -47,6 +48,16 @@ button.slick-arrow.slick-prev{
 .slick-dots li button:before{
     content: none !important;
 }
+
+.pagination{
+    display: $flex;
+    justify-content: center;
+}
+
+
+
+
+
 @media (max-width:768px) {
     .slick-height {
         height: 350px;
