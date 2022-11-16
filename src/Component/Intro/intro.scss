@@ -1,0 +1,57 @@
+@import "../../assets/scss/variables";
+.intro{
+    padding: 75px 0;
+    background-color: $bg_color;
+    .cardos {
+            position: relative;
+        }
+    .p-info {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+
+    h2 {
+        font-size: 2.7rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+    h3{
+        line-height: 0.9;
+    }
+    }
+    .p-success{
+        display: $flex;
+        flex-direction: $col;
+        gap: 2rem;
+
+     h4{
+        font-family: nunito;
+        font-size: 2.3rem;
+     }
+
+     .learn-more-btn{
+        width: 160px;
+        max-width: 100%;
+        padding: 16px 0;
+        border: none;
+        border-radius: 30px;
+        background: #121212;
+        color: #fff;
+     }
+
+    }
+
+}
+@media (max-width:991px) {
+    .intro {
+    .p-info {
+        position: static;
+        margin-bottom: 20px;
+    }
+    .p-pic img{
+        width: 100%;
+    }
+}
+}

@@ -1,0 +1,14 @@
+
+.faq-section {
+    .accordion-button:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+@media (max-width:768px) {
+    .faq-section {
+    .row {
+        gap: 10px;
+    }
+    }
+}

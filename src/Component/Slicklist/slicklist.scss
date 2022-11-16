@@ -1,6 +1,4 @@
-$slickheight : 400px;
-$card_img: 250px;
-$flex : flex;
+@import "../../assets/scss/variables";
 
 .card-flex-item{
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
@@ -20,6 +18,7 @@ $flex : flex;
 }
 .slick-slide-container{
     overflow: hidden;
+    padding: 65px 0;
 }
 ul.slick-dots {
     bottom: 0;
@@ -60,7 +59,7 @@ button.slick-arrow.slick-prev{
 
 @media (max-width:768px) {
     .slick-height {
-        height: 350px;
+        height: auto;
     }
     .slick-height img{
         height: 350px;
