@@ -3,7 +3,7 @@ import "./faq.scss";
 import Accordion from "react-bootstrap/Accordion";
 import Container from "react-bootstrap/Container";
 
-const Faq = () => {
+const Faq = (props) => {
   return (
     <div className="faq-section">
       <h1 className="text-center py-5">Frequently Asked Questions</h1>
@@ -50,11 +50,7 @@ const Faq = () => {
             </Accordion.Item>
           </Accordion>
           <div className="faq-img col-lg-6">
-            <img
-              width="100%"
-              src="https://cdn.searchenginejournal.com/wp-content/uploads/2022/07/faq-632c0874710c1-sej-760x400.png"
-              alt=""
-            />
+            <img width="100%" src={props.image} alt="" />
           </div>
         </div>
       </Container>

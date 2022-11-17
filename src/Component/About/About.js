@@ -7,9 +7,9 @@ import Slicklist from "../Slicklist/Slicklist";
 const About = () => {
   return (
     <div>
+      <Banner />
       <Intro />
       <Slicklist />
-      <Banner />
       <Faq />
     </div>
   );

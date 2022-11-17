@@ -4,31 +4,34 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { NavLink } from "react-router-dom";
+
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const Header = () => {
   return (
     <>
       <Navbar bg="main-navbar" expand="lg">
         <Container>
-          <Navbar.Brand href="#home" className="color-scss text-white">
+          <Navbar.Brand href="/" className="color-scss text-white">
             <img src="" alt="" className="" />
-            React-Bootstrap
+            My React App
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto text-white">
-              <Nav.Link href="/" className="text-white">
+              <NavLink to="/" className="text-white nav-link">
                 Home
-              </Nav.Link>
-              <Nav.Link href="/about" className="text-white">
+              </NavLink>
+              <NavLink to="/about" className="text-white nav-link">
                 About
-              </Nav.Link>
-              <Nav.Link href="/service" className="text-white">
-                Service
-              </Nav.Link>
-              <Nav.Link href="/contact" className="text-white">
+              </NavLink>
+              <NavLink to="service" className="text-white nav-link">
+                Services
+              </NavLink>
+              <NavLink to="/contact" className="text-white nav-link">
                 Contact
-              </Nav.Link>
+              </NavLink>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown nav-links">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
