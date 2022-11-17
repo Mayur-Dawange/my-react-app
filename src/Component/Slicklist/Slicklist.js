@@ -25,6 +25,7 @@ export default class Slicklist extends Component {
       autoplay: false,
       centerPadding: "60px",
       speed: 500,
+
       slidesToScroll: 1,
       responsive: [
         {
@@ -187,9 +188,9 @@ export default class Slicklist extends Component {
               </div>
             </div>
           </Slider>
-          <div>
+          {/* <div>
             <Pagination>{items}</Pagination>
-          </div>
+          </div> */}
         </Container>
       </div>
     );

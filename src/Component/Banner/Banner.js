@@ -29,7 +29,7 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* simple section used here */}
+      {/* simple About section used here */}
       <div className="about-section">
         <Container>
           <Card className="border-0 py-3">

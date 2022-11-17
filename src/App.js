@@ -1,24 +1,13 @@
 import "./assets/scss/main.scss";
-import Header from "./Component/Header/Header";
-import Banner from "./Component/Banner/Banner";
-import Slicklist from "./Component/Slicklist/Slicklist";
-import Intro from "./Component/Intro/Intro";
 import React from "react";
-import Faq from "./Component/Faq/Faq";
-import Footer from "./Component/Footer/Footer";
 import Layout from "./Component/Layout/Layout";
 import Home from "./Component/Home/Home";
+// import { Route, Switch } from "react-router-dom";
+// import About from ".././src/Component/About/About";
+// import Contact from ".././src/Component/Contact/Contact";
 
 const App = (routs) => {
   return (
-    // <div>
-    //   <Header />
-    //   <Banner />
-    //   <Slicklist />
-    //   <Intro />
-    //   <Faq />
-    //   <Footer />
-    // </div>
     <Layout>
       <Home />
     </Layout>
