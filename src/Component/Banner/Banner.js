@@ -4,7 +4,7 @@ import { Button, Card, Container } from "react-bootstrap";
 
 import Font from "react-font";
 
-const Banner = () => {
+const Banner = (props) => {
   return (
     <>
       <div style={{ paddingLeft: 0 }}>
@@ -13,7 +13,7 @@ const Banner = () => {
             <div className="d-flex justify-content-center align-items-center h-100">
               <div className="text-white">
                 <Font family="Roboto">
-                  <h1 className="mb-3">Restaurants</h1>
+                  <h1 className="mb-3">Restaurants {props.title} </h1>
                 </Font>
                 <h4 className="mb-3">Test Your best</h4>
                 <a

@@ -4,7 +4,7 @@ import Faq from "../Faq/Faq";
 import Intro from "../Intro/Intro";
 import Slicklist from "../Slicklist/Slicklist";
 
-const Service = () => {
+const Service = (props) => {
   return (
     <div>
       <Banner />
