@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Faq from "../Faq/Faq";
 import Hero from "../Hero/Hero";
+import background from "../../assets/img/lily-banse--YHSwy6uqvk-unsplash.jpg";
 
 const Contact = () => {
   return (
@@ -10,6 +11,7 @@ const Contact = () => {
         title="Contact us"
         subtitle="Get Us Touch Now"
         pageinfo="Contact Details"
+        background={background}
       />
       <Faq image="https://www.superoffice.com/globalassets/blog/2016/10/how-to-build-faq-section.jpg" />
       <Container>

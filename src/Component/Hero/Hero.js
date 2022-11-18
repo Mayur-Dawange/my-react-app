@@ -1,8 +1,6 @@
 import React from "react";
 import "./Hero.scss";
 import { Button, Card, Container } from "react-bootstrap";
-import background from "../../assets/img/lily-banse--YHSwy6uqvk-unsplash.jpg";
-
 import Font from "react-font";
 
 const Hero = (props) => {
@@ -11,7 +9,7 @@ const Hero = (props) => {
       <div style={{ paddingLeft: 0 }}>
         <div
           className="text-center bg-image"
-          style={{ height: 400, backgroundImage: `url(${background})` }}
+          style={{ height: 400, backgroundImage: `url(${props.background})` }}
         >
           <div className="mask h-100 overlay">
             <div className="d-flex justify-content-center align-items-center h-100">

@@ -4,7 +4,7 @@ import Faq from "../Faq/Faq";
 import Hero from "../Hero/Hero";
 import Intro from "../Intro/Intro";
 import Slicklist from "../Slicklist/Slicklist";
-// import background from "../../assets/img/lily-banse--YHSwy6uqvk-unsplash.jpg";
+import background from "../../assets/img/lily-banse--YHSwy6uqvk-unsplash.jpg";
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
         title="Restaurant"
         subtitle="Get The Best Food"
         pageinfo="About Us"
-        // style={{ backgroundImage: `url(${background})` }}
+        background={background}
       />
       <Slicklist />
       <Intro />
