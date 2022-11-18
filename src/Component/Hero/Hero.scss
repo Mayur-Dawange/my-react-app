@@ -1,35 +1,33 @@
 @import "../../assets/scss/variables";
+
 // for banner image-bg
 .bg-image {
-    background-image: url('../../assets/img/lily-banse--YHSwy6uqvk-unsplash.jpg');
+    // background-image: url('../../assets/img/lily-banse--YHSwy6uqvk-unsplash.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 
-.text-cards{
+.text-cards {
     width: 60%;
 }
 
-.about-section{
+.about-section {
     background-color: $bg_color;
     padding: 40px 0px;
 
-    h2{
+    h2 {
         font-size: 35px;
-
         width: fit-content;
 
-        &:hover{
+        &:hover {
             color: rgb(76, 121, 121);
         }
-        &::after{
-            content: " Out Work";
-        }
+
     }
 
-    .card{
+    .card {
         background-color: transparent;
     }
 }

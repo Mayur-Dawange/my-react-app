@@ -1,21 +1,25 @@
 import React from "react";
-import "./banner.scss";
+import "./Hero.scss";
 import { Button, Card, Container } from "react-bootstrap";
+import background from "../../assets/img/lily-banse--YHSwy6uqvk-unsplash.jpg";
 
 import Font from "react-font";
 
-const Banner = (props) => {
+const Hero = (props) => {
   return (
-    <>
+    <div>
       <div style={{ paddingLeft: 0 }}>
-        <div className="text-center bg-image" style={{ height: 400 }}>
+        <div
+          className="text-center bg-image"
+          style={{ height: 400, backgroundImage: `url(${background})` }}
+        >
           <div className="mask h-100 overlay">
             <div className="d-flex justify-content-center align-items-center h-100">
               <div className="text-white">
                 <Font family="Roboto">
-                  <h1 className="mb-3">Restaurants {props.title} </h1>
+                  <h1 className="mb-3">{props.title}</h1>
                 </Font>
-                <h4 className="mb-3">Test Your best</h4>
+                <h4 className="mb-3">{props.subtitle}</h4>
                 <a
                   className="btn btn-outline-light btn-lg"
                   href="#!"
@@ -36,7 +40,7 @@ const Banner = (props) => {
             {/* <Card.Header>Featured</Card.Header> */}
 
             <Card.Body className="py-5">
-              <h2>About</h2>
+              <h2>{props.pageinfo}</h2>
               <Card.Title>Special title treatment</Card.Title>
               <Card.Text className="text-cards">
                 With supporting text below as a natural lead-in to additional
@@ -49,8 +53,8 @@ const Banner = (props) => {
           </Card>
         </Container>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Banner;
+export default Hero;

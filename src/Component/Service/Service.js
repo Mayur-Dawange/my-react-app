@@ -1,13 +1,17 @@
 import React from "react";
-import Banner from "../Banner/Banner";
 import Faq from "../Faq/Faq";
+import Hero from "../Hero/Hero";
 import Intro from "../Intro/Intro";
 import Slicklist from "../Slicklist/Slicklist";
 
 const Service = (props) => {
   return (
     <div>
-      <Banner />
+      <Hero
+        title="Services"
+        subtitle="Best Food Services"
+        pageinfo="Our Services"
+      />
       <Slicklist />
       <Intro />
       <Faq />
