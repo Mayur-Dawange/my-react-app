@@ -5,7 +5,7 @@ import Font from "react-font";
 
 const Hero = (props) => {
   return (
-    <div>
+    <div className="banner-section">
       <div style={{ paddingLeft: 0 }}>
         <div
           className="text-center bg-image"

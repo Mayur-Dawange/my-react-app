@@ -2,7 +2,7 @@ import React from "react";
 import Faq from "../Faq/Faq";
 import Hero from "../Hero/Hero";
 import Intro from "../Intro/Intro";
-import Slicklist from "../Slicklist/Slicklist";
+import SlickList from "../SlickList/SlickList";
 import background from "../../assets/img/anh-nguyen-kcA-c3f_3FE-unsplash.jpg";
 
 const About = () => {
@@ -14,8 +14,9 @@ const About = () => {
         pageinfo="About Us"
         background={background}
       />
+
+      <SlickList />
       <Intro />
-      <Slicklist />
       <Faq />
     </div>
   );

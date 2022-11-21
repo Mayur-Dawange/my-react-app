@@ -1,0 +1,64 @@
+.project-case-area .project-case-item .project-case-thumb {
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+
+}
+.title {
+    font-weight: 600;
+}
+.service-card-img {
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.3s ease-out 0s;
+}
+.project-case-area .project-case-item .project-case-thumb::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 120px solid #f86e03;
+    border-left: 120px solid transparent;
+    z-index: 1;
+
+}
+.project-case-item:hover {
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition:all 0.3s ease-out 0s;
+
+     .title {
+         color: #f86e03;
+        transition: all 0.3s ease-out 0s;
+     }
+
+ }
+
+.project-case-thumb img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+}
+
+
+.clovenIcon{
+    width: 60px;
+    position: absolute;
+    /* top: 4px; */
+    right: 0;
+    bottom: 5px;
+    z-index: 2;
+    border: transparent;
+}
+
+@media (max-width:992px) {
+    .project-case-area {
+    .row {
+        gap: 15px;
+    }
+
+    }
+}

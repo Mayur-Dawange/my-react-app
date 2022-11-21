@@ -1,0 +1,20 @@
+#slick-item .slick-item .slick-arrow.slick-prev {
+    background-image: url(https://www.shutterstock.com/image-vector/arrow-line-icon-vector-260nw-1412760110.jpg);
+    background-position: center;
+    background-size: cover;
+    transform: rotate(180deg);
+    width: 32px;
+    height: 32px;
+    top: 45%;
+}
+#slick-item .slick-item .slick-arrow.slick-next {
+    background-image: url(https://www.shutterstock.com/image-vector/arrow-line-icon-vector-260nw-1412760110.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+.slick-prev:before,
+.slick-next:before {
+    content: none !important;
+}
