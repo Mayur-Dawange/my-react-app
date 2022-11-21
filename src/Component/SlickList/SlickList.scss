@@ -3,7 +3,9 @@
 .slick-list{
     padding: 0 0 45px 0 !important;
 }
-
+.food_img{
+    object-fit: cover;
+}
 .card-flex-item{
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }

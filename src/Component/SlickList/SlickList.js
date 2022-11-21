@@ -4,19 +4,43 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Container from "react-bootstrap/Container";
-import Pagination from "react-bootstrap/Pagination";
-
-let active = 2;
-let items = [Slider];
-for (let number = 1; number <= 3; number++) {
-  items.push(
-    <Pagination.Item key={number} active={number === active}>
-      {number}
-    </Pagination.Item>
-  );
-}
+// import Pagination from "react-bootstrap/Pagination";
+import food1 from "../../assets/img/food1.jpg";
+import food2 from "../../assets/img/food2.jpg";
+import food3 from "../../assets/img/food3.jpg";
 
 const SlickList = () => {
+  const FoodItem = [
+    {
+      foodimg: food1,
+      foodname: "Pizaa",
+      fooddesc:
+        "lorme ipsum You can unslick at a given breakpoint now by adding",
+      foodlink: "http://www.zomato.com/pizza",
+    },
+    {
+      foodimg: food2,
+      foodname: "NonVeg",
+      fooddesc:
+        "lorme2 ipsum You can unslick at a given breakpoint now by adding",
+      foodlink: "http://www.zomato.com/pizza",
+    },
+    {
+      foodimg: food3,
+      foodname: "Pizaa",
+      fooddesc:
+        "lorme3 ipsum You can unslick at a given breakpoint now by adding",
+      foodlink: "http://www.zomato.com/pizza",
+    },
+    {
+      foodimg: food1,
+      foodname: "Pizaa",
+      fooddesc:
+        "lorme4 ipsum You can unslick at a given breakpoint now by adding",
+      foodlink: "http://www.zomato.com/pizza",
+    },
+  ];
+
   const settings = {
     dots: true,
     infinite: true,
@@ -60,28 +84,32 @@ const SlickList = () => {
     <div className="slick-slide-container">
       <Container>
         <Slider {...settings} className="slick-list-card">
-          <div className="slick-height">
-            <div id="card-1" className="card-flex-item">
-              <div data-reactroot="" className="card-flex-wrapper">
-                <div className="card-flex-image">
-                  <img
-                    src="https://cdn.pixabay.com/photo/2016/11/11/07/51/moon-1815984__340.jpg"
-                    className="w-100"
-                    alt="slider1"
-                  />
-                </div>
-                <div className="card-flex-content">
-                  <h3>One</h3>
-                  <p>I'm a card and I'm first</p>
-                  <a href="https:" className="btn btn-primary">
-                    {" "}
-                    Order Now{" "}
-                  </a>
+          {FoodItem.map((foodata, index) => {
+            return (
+              <div className="slick-height">
+                <div id="card-1" className="card-flex-item">
+                  <div data-reactroot="" className="card-flex-wrapper">
+                    <div className="card-flex-image">
+                      <img
+                        src={foodata.foodimg}
+                        className="w-100 food_img"
+                        alt="slider1"
+                      />
+                    </div>
+                    <div className="card-flex-content">
+                      <h3>{foodata.foodname}</h3>
+                      <p>{foodata.fooddesc}</p>
+                      <a href={foodata.foodlink} className="btn btn-primary">
+                        Order Now
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="slick-height">
+            );
+          })}
+
+          {/* <div className="slick-height">
             <div id="card-2" className="card-flex-item">
               <div data-reactroot="" className="card-flex-wrapper">
                 <div className="card-flex-image">
@@ -185,7 +213,7 @@ const SlickList = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
         {/* <div>
             <Pagination>{items}</Pagination>

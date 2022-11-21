@@ -3,7 +3,7 @@ import Faq from "../Faq/Faq";
 import Hero from "../Hero/Hero";
 import Intro from "../Intro/Intro";
 import SlickList from "../SlickList/SlickList";
-import background from "../../assets/img/lily-banse--YHSwy6uqvk-unsplash.jpg";
+import background from "../../assets/img/food1.jpg";
 import SlickItem from "../SlickItem/SlickItem";
 
 const Home = () => {

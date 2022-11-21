@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Faq from "../Faq/Faq";
 import Hero from "../Hero/Hero";
-import background from "../../assets/img/lily-banse--YHSwy6uqvk-unsplash.jpg";
+import background from "../../assets/img/food2.jpg";
 
 const Contact = () => {
   return (

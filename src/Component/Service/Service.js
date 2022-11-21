@@ -3,7 +3,7 @@ import React from "react";
 import Hero from "../Hero/Hero";
 import Intro from "../Intro/Intro";
 import SlickList from "../SlickList/SlickList";
-import background from "../../assets/img/eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg";
+import background from "../../assets/img/food2.jpg";
 import Servicecard from "../Servicecards/Servicecard";
 import { Container } from "react-bootstrap";
 import servicecardimg from "../../assets/img/project-3.jpg";
