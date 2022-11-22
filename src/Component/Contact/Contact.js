@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import Faq from "../Faq/Faq";
 import Hero from "../Hero/Hero";
 import background from "../../assets/img/food2.jpg";
+import ContactFrom from "../ContactForm/ContactFrom";
 
 const Contact = () => {
   return (
@@ -14,6 +15,7 @@ const Contact = () => {
         background={background}
       />
       <Faq image="https://www.superoffice.com/globalassets/blog/2016/10/how-to-build-faq-section.jpg" />
+      <ContactFrom />
       <Container>
         You can find us here:
         <br />
