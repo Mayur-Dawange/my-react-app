@@ -14,6 +14,7 @@ const About = () => {
         subtitle="Get Know More About Us"
         pageinfo="About Us"
         background={background}
+        link="http://www.zomato.com"
       />
       <SlickList />
       <Intro />

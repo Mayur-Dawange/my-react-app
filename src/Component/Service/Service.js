@@ -18,6 +18,7 @@ const Service = () => {
         subtitle="Best Food Services"
         pageinfo="Our Services"
         background={background}
+        link="http://www.zomato.com"
       />
       <section className="project-case-area py-5">
         <Container>

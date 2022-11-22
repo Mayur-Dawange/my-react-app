@@ -14,6 +14,7 @@ const Home = () => {
         subtitle="Get The Best Food"
         pageinfo="About Us"
         background={background}
+        link="http://www.zomato.com"
       />
 
       <SlickList />

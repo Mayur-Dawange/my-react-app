@@ -13,6 +13,7 @@ const Contact = () => {
         subtitle="Get Us Touch Now"
         pageinfo="Contact Details"
         background={background}
+        link="http://www.zomato.com"
       />
       <Container>
         <div className="contact_form col-lg-10 m-auto">

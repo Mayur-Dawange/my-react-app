@@ -38,7 +38,7 @@ const Hero = (props) => {
                 </h4>
                 <a
                   className="btn btn-outline-light btn-lg"
-                  href="#!"
+                  href={props.link}
                   role="button"
                   data-aos="fade-up"
                   data-aos-delay="300"
