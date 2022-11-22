@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
+
 import "./Slickitem.scss";
 
 const SlickItem = () => {
@@ -11,9 +12,7 @@ const SlickItem = () => {
       image: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit Minus et deleniti nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit doloremque.",
-      // starfill: "",
-      // starthalf: "http://www.w3.org/2000/svg",
-      // startempty: "",
+      rating: 3,
     },
     {
       name: "Maria Kate",
@@ -21,6 +20,7 @@ const SlickItem = () => {
       image: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit Minus et deleniti nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit doloremque.",
+      rating: 2,
     },
     {
       name: "John Doe",
@@ -28,6 +28,7 @@ const SlickItem = () => {
       image: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit Minus et deleniti nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit doloremque.",
+      rating: 4.5,
     },
     {
       name: "Maria Kate",
@@ -35,6 +36,7 @@ const SlickItem = () => {
       image: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
       description:
         "adipisicing elit Minus et deleniti nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit doloremque.",
+      rating: 5,
     },
   ];
 

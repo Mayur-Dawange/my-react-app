@@ -15,7 +15,6 @@ const About = () => {
         pageinfo="About Us"
         background={background}
       />
-
       <SlickList />
       <Intro />
       <Faq image={faqimg} />

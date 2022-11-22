@@ -3,6 +3,8 @@ import "./Hero.scss";
 import { Button, Card, Container } from "react-bootstrap";
 import Font from "react-font";
 
+//useEffect
+
 const Hero = (props) => {
   return (
     <div className="banner-section">
@@ -15,13 +17,33 @@ const Hero = (props) => {
             <div className="d-flex justify-content-center align-items-center h-100">
               <div className="text-white">
                 <Font family="Roboto">
-                  <h1 className="mb-3">{props.title}</h1>
+                  <h1
+                    className="mb-3 page-title"
+                    data-aos="fade-down"
+                    data-aos-delay="300"
+                    data-aos-easing="linear"
+                    data-aos-duration="500"
+                  >
+                    {props.title}
+                  </h1>
                 </Font>
-                <h4 className="mb-3">{props.subtitle}</h4>
+                <h4
+                  className="mb-3"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-easing="linear"
+                  data-aos-duration="500"
+                >
+                  {props.subtitle}
+                </h4>
                 <a
                   className="btn btn-outline-light btn-lg"
                   href="#!"
                   role="button"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-easing="linear"
+                  data-aos-duration="500"
                 >
                   Order Now
                 </a>

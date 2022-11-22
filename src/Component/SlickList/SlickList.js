@@ -8,11 +8,12 @@ import Container from "react-bootstrap/Container";
 import food1 from "../../assets/img/food1.jpg";
 import food2 from "../../assets/img/food2.jpg";
 import food3 from "../../assets/img/food3.jpg";
+import pizza from "../../assets/img/pizza.jpg";
 
 const SlickList = () => {
   const FoodItem = [
     {
-      foodimg: food1,
+      foodimg: pizza,
       foodname: "Pizaa",
       fooddesc:
         "lorme ipsum You can unslick at a given breakpoint now by adding",
@@ -20,21 +21,21 @@ const SlickList = () => {
     },
     {
       foodimg: food2,
-      foodname: "NonVeg",
+      foodname: "Onion Salad",
       fooddesc:
         "lorme2 ipsum You can unslick at a given breakpoint now by adding",
       foodlink: "http://www.zomato.com/pizza",
     },
     {
       foodimg: food3,
-      foodname: "Pizaa",
+      foodname: "Non-Veg",
       fooddesc:
         "lorme3 ipsum You can unslick at a given breakpoint now by adding",
       foodlink: "http://www.zomato.com/pizza",
     },
     {
       foodimg: food1,
-      foodname: "Pizaa",
+      foodname: "Grocery",
       fooddesc:
         "lorme4 ipsum You can unslick at a given breakpoint now by adding",
       foodlink: "http://www.zomato.com/pizza",
@@ -108,116 +109,7 @@ const SlickList = () => {
               </div>
             );
           })}
-
-          {/* <div className="slick-height">
-            <div id="card-2" className="card-flex-item">
-              <div data-reactroot="" className="card-flex-wrapper">
-                <div className="card-flex-image">
-                  <img
-                    src="https://cdn.pixabay.com/photo/2017/02/05/19/23/eye-2040986_960_720.jpg"
-                    className="w-100"
-                    alt="slider2"
-                  />
-                </div>
-                <div className="card-flex-content">
-                  <h3>Two</h3>
-                  <p>I'm a card and I'm Second</p>
-                  <a href="https:" className="btn btn-primary">
-                    {" "}
-                    Order Now{" "}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slick-height">
-            <div id="card-3" className="card-flex-item">
-              <div data-reactroot="" className="card-flex-wrapper">
-                <div className="card-flex-image">
-                  <img
-                    src="https://cdn.pixabay.com/photo/2017/02/10/18/47/love-2055960__340.jpg"
-                    className="w-100"
-                    alt="slider3"
-                  />
-                </div>
-                <div className="card-flex-content">
-                  <h3>Two</h3>
-                  <p>I'm a card and I'm Second</p>
-                  <a href="https:" className="btn btn-primary">
-                    {" "}
-                    Order Now{" "}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slick-height">
-            <div id="card-4" className="card-flex-item">
-              <div data-reactroot="" className="card-flex-wrapper">
-                <div className="card-flex-image">
-                  <img
-                    src="https://cdn.pixabay.com/photo/2016/11/11/07/51/moon-1815984__340.jpg"
-                    className="w-100"
-                    alt="slider1"
-                  />
-                </div>
-                <div className="card-flex-content">
-                  <h3>Four</h3>
-                  <p>I'm a card and I'm Four</p>
-                  <a href="https:" className="btn btn-primary">
-                    {" "}
-                    Order Now{" "}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slick-height">
-            <div id="card-5" className="card-flex-item">
-              <div data-reactroot="" className="card-flex-wrapper">
-                <div className="card-flex-image">
-                  <img
-                    src="https://cdn.pixabay.com/photo/2017/02/10/18/47/love-2055960__340.jpg"
-                    className="w-100"
-                    alt="slider3"
-                  />
-                </div>
-                <div className="card-flex-content">
-                  <h3>Five</h3>
-                  <p>I'm a card and I'm Five</p>
-                  <a href="https:" className="btn btn-primary">
-                    {" "}
-                    Order Now{" "}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slick-height">
-            <div id="card-5" className="card-flex-item">
-              <div data-reactroot="" className="card-flex-wrapper">
-                <div className="card-flex-image">
-                  <img
-                    src="https://cdn.pixabay.com/photo/2017/02/10/18/47/love-2055960__340.jpg"
-                    className="w-100"
-                    alt="slider3"
-                  />
-                </div>
-                <div className="card-flex-content">
-                  <h3>Five</h3>
-                  <p>I'm a card and I'm Five</p>
-                  <a href="https:" className="btn btn-primary">
-                    {" "}
-                    Order Now{" "}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </Slider>
-        {/* <div>
-            <Pagination>{items}</Pagination>
-          </div> */}
       </Container>
     </div>
   );
