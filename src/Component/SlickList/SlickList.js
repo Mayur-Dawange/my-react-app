@@ -17,28 +17,28 @@ const SlickList = () => {
       foodname: "Pizaa",
       fooddesc:
         "lorme ipsum You can unslick at a given breakpoint now by adding",
-      foodlink: "http://www.zomato.com/pizza",
+      foodlink: "http://www.zomato.com/indore/pizza-time",
     },
     {
       foodimg: food2,
       foodname: "Onion Salad",
       fooddesc:
         "lorme2 ipsum You can unslick at a given breakpoint now by adding",
-      foodlink: "http://www.zomato.com/pizza",
+      foodlink: "http://www.zomato.com/indore/pizza-time",
     },
     {
       foodimg: food3,
       foodname: "Non-Veg",
       fooddesc:
         "lorme3 ipsum You can unslick at a given breakpoint now by adding",
-      foodlink: "http://www.zomato.com/pizza",
+      foodlink: "http://www.zomato.com/indore/pizza-time",
     },
     {
       foodimg: food1,
       foodname: "Grocery",
       fooddesc:
         "lorme4 ipsum You can unslick at a given breakpoint now by adding",
-      foodlink: "http://www.zomato.com/pizza",
+      foodlink: "http://www.zomato.com/indore/pizza-time",
     },
   ];
 
