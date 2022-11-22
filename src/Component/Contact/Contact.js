@@ -7,7 +7,7 @@ import ContactFrom from "../ContactForm/ContactFrom";
 
 const Contact = () => {
   return (
-    <address>
+    <>
       <Hero
         title="Contact us"
         subtitle="Get Us Touch Now"
@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
       </Container>
       <Faq image="https://www.superoffice.com/globalassets/blog/2016/10/how-to-build-faq-section.jpg" />
-    </address>
+    </>
   );
 };
 
