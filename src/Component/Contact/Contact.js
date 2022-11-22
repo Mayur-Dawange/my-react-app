@@ -14,16 +14,12 @@ const Contact = () => {
         pageinfo="Contact Details"
         background={background}
       />
-      <Faq image="https://www.superoffice.com/globalassets/blog/2016/10/how-to-build-faq-section.jpg" />
-      <ContactFrom />
       <Container>
-        You can find us here:
-        <br />
-        React Contact
-        <br />
-        5th & 6th Floor, Royal Kapsons, A- 118, <br />
-        Sector- 136, Noida, Delhi (201305)
+        <div className="contact_form col-lg-10 m-auto">
+          <ContactFrom />
+        </div>
       </Container>
+      <Faq image="https://www.superoffice.com/globalassets/blog/2016/10/how-to-build-faq-section.jpg" />
     </address>
   );
 };

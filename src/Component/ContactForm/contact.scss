@@ -4,8 +4,26 @@ input::-webkit-inner-spin-button {
     appearance: none;
     margin: 0;
 }
+.c_form{
+    padding: 2rem;
+}
 
 /* Firefox */
 input[type=number] {
     appearance: textfield;
+}
+@media (max-width:768px) {
+
+    .contact_form {
+        padding: 10px;
+    }
+
+    .radio_btns {
+        flex-direction: column;
+    }
+
+    .c_form {
+        padding: 10px !important;
+    }
+
 }

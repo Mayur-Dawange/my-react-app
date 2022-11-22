@@ -7,7 +7,7 @@ const ContactFrom = () => {
   return (
     <div className="col-lg-6 m-auto py-5 Contact-section">
       <h1 className="text-center py-2">Contact Us</h1>
-      <Form className="border p-5">
+      <Form className="border c_form">
         <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label>Name</Form.Label>
           <Form.Control type="text" placeholder="Enter Name" required />
@@ -28,7 +28,10 @@ const ContactFrom = () => {
           />
         </Form.Group>
         {["radio"].map((radio) => (
-          <div key={`default-${radio}`} className="mb-3 d-flex gap-2">
+          <div
+            key={`default-${radio}`}
+            className="mb-3 d-flex gap-2 radio_btns"
+          >
             <Form.Check
               name="gender"
               type={radio}
