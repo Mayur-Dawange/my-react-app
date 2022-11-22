@@ -4,7 +4,11 @@ body {
     font-family: 'Poppins', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    // overflow: hidden;
 }
+// ::-webkit-scrollbar {
+//     display: none;
+// }
 
 .overlay{
     background-color: $overlay;
