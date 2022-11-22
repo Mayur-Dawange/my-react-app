@@ -1,7 +1,13 @@
+import { Box, Typography } from "@mui/material";
 import React from "react";
 import Container from "react-bootstrap/Container";
 import "./intro.scss";
+import Modal from "@mui/material/Modal";
+import Button from "@mui/material/Button";
 const Intro = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   return (
     <>
       <div className="intro">
@@ -32,7 +38,34 @@ const Intro = () => {
                     Odio eius sed repellat quo, adipisci laborum consequatur ut
                     quibusdam animi fuga!
                   </p>
-                  <button className="learn-more-btn">Learn More</button>
+
+                  <Button className="learn-more-btn" onClick={handleOpen}>
+                    Read More
+                  </Button>
+                  <Modal
+                    open={open}
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                  >
+                    <Box>
+                      <Typography
+                        id="modal-modal-title"
+                        variant="h6"
+                        component="h2"
+                      >
+                        Text in a modal
+                      </Typography>
+                      <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                        Duis mollis, est non commodo luctus, nisi erat porttitor
+                        ligula.Duis mollis, est non commodo luctus, nisi erat
+                        porttitor ligula.Duis mollis, est non commodo luctus,
+                        nisi erat porttitor ligula.Duis mollis, est non commodo
+                        luctus, nisi erat porttitor ligula.Duis mollis, est non
+                        commodo luctus, nisi erat porttitor ligula.
+                      </Typography>
+                    </Box>
+                  </Modal>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Laborum aspernatur doloremque molestias, error accusamus
