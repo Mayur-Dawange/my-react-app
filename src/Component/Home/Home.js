@@ -16,7 +16,6 @@ const Home = () => {
         background={background}
         link="http://www.zomato.com"
       />
-
       <SlickList />
       <Intro />
       <Faq image="https://cdn.searchenginejournal.com/wp-content/uploads/2022/07/faq-632c0874710c1-sej-760x400.png" />

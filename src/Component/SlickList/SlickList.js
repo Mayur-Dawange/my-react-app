@@ -87,7 +87,7 @@ const SlickList = () => {
         <Slider {...settings} className="slick-list-card">
           {FoodItem.map((foodata, index) => {
             return (
-              <div className="slick-height">
+              <div className="slick-height" key={index}>
                 <div id="card-1" className="card-flex-item">
                   <div data-reactroot="" className="card-flex-wrapper">
                     <div className="card-flex-image">

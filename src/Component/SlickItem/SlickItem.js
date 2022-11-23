@@ -71,7 +71,7 @@ const SlickItem = () => {
                       <h5 className="mb-3"> {data.name} </h5>
                       <p> {data.role} </p>
                       <p className="text-muted">
-                        <i fas icon="quote-left" className="pe-2" />
+                        {/* <i fas="true" icon="quote-left" className="pe-2" /> */}
                         {data.description}
                       </p>
                     </div>
